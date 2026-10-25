@@ -9,4 +9,3 @@ data/processed/*.npz
 results/**/*.pt
 results/**/*.npz
 report.pdf
-conf_1.2/

@@ -1,4 +1,4 @@
-"""Inspect recommendations after training or restoring an archived checkpoint."""
+"""Inspect recommendations from a trained checkpoint."""
 import argparse
 import json
 from pathlib import Path
@@ -23,7 +23,7 @@ def main():
     if not args.history:
         needed.append(ROOT / "data/processed/test.npz")
     if any(not path.is_file() for path in needed):
-        parser.error("Prepared data and trained weights are required. Run python run_all.py first, or restore the conf_1.2 archive.")
+        parser.error("Prepared data and trained weights are required. Run python run_all.py first.")
     cfg = read_json(ROOT / "configs/main.json")
     seed_all(17, cfg["threads"])
     catalog = read_json(ROOT / "data/processed/catalog.json")

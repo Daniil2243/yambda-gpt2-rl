@@ -1,7 +1,7 @@
 {
   ".gitignore": {
-    "bytes": 222,
-    "sha256": "d7efd0d77d541068228fc3566114ef4d4713b45616f933f5baa36108e6177f40"
+    "bytes": 212,
+    "sha256": "e1dd0cb45f08cb09b507d3fb9be3e688de64f8b512a01738385ea06b779677b9"
   },
   "DATA_LICENSE.md": {
     "bytes": 1322,
@@ -12,8 +12,8 @@
     "sha256": "d6cdf88eeac5b7cc77b7084a259ac12966b97e3a6bb6e6e90da2a8a11c8c8d39"
   },
   "README.md": {
-    "bytes": 34271,
-    "sha256": "6aab1143562f7016a0dad4f66a4b1186f4b2ac71ca605c3e4c18524078e7898a"
+    "bytes": 34077,
+    "sha256": "82201ebef8abd13f1dd3f1a92489635fb6b0e5e92f010fd210d501c9f1853948"
   },
   "configs/main.json": {
     "bytes": 1077,
@@ -64,8 +64,8 @@
     "sha256": "40c96b01fa3f29628bead4a81271982fe9f19e7332f30fc5a9455728fa1a653a"
   },
   "recsys/recommend.py": {
-    "bytes": 2945,
-    "sha256": "47a44a63224f145d8e1d26b38efd4e7e9dbd9cc948a8a848c4ba1fbec0c13d76"
+    "bytes": 2887,
+    "sha256": "9c5a74a50862d93cf5d1eb8ccd6e288300b5764aeca761e8dd55d47b0e5348ff"
   },
   "recsys/verify.py": {
     "bytes": 2723,
