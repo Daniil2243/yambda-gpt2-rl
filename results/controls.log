@@ -1,0 +1,12 @@
+seed=17 sft_control step=100 val NDCG@10=0.01338 predicted completion=0.6439
+seed=17 sft_control step=200 val NDCG@10=0.01350 predicted completion=0.6427
+seed=17 sft_control step=300 val NDCG@10=0.01365 predicted completion=0.6439
+seed=17 sft_control step=400 val NDCG@10=0.01357 predicted completion=0.6445
+seed=29 sft_control step=100 val NDCG@10=0.01345 predicted completion=0.6402
+seed=29 sft_control step=200 val NDCG@10=0.01288 predicted completion=0.6400
+seed=29 sft_control step=300 val NDCG@10=0.01344 predicted completion=0.6414
+seed=29 sft_control step=400 val NDCG@10=0.01303 predicted completion=0.6403
+seed=43 sft_control step=100 val NDCG@10=0.01222 predicted completion=0.6405
+seed=43 sft_control step=200 val NDCG@10=0.01246 predicted completion=0.6404
+seed=43 sft_control step=300 val NDCG@10=0.01259 predicted completion=0.6422
+seed=43 sft_control step=400 val NDCG@10=0.01306 predicted completion=0.6412

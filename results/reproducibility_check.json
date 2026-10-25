@@ -1,0 +1,19 @@
+{
+  "clean_venv_install": "passed",
+  "python": "3.12.14",
+  "unit_tests": "7 passed",
+  "prepared_data_protocol": "passed",
+  "checkpoint_inference": "passed",
+  "pdf_pages": 9,
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.2",
+    "numpy": "2.3.5",
+    "pyarrow": "26.0.0",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9",
+    "pytest": "9.1.1"
+  }
+}

@@ -1,0 +1,10 @@
+# Python 3.12; install the CPU torch wheel first as documented in README.md.
+torch==2.14.1
+transformers==5.20.2
+numpy==2.3.5
+pyarrow==26.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+reportlab==4.4.9
+pytest==9.1.1

@@ -1,0 +1,80 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "threads": 4,
+  "versions": {
+    "numpy": "2.3.5",
+    "pyarrow": "26.0.0",
+    "transformers": "5.20.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "config": {
+    "catalog_size": 2048,
+    "context_length": 32,
+    "min_history": 3,
+    "train_fraction_time": 0.8,
+    "validation_fraction_time": 0.1,
+    "train_examples_per_user": 40,
+    "max_eval_users": 6000,
+    "data_seed": 20261025,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "embedding_dim": 64,
+    "layers": 2,
+    "heads": 4,
+    "dropout": 0.1,
+    "batch_size": 128,
+    "base_steps": 1800,
+    "base_lr": 0.001,
+    "eval_every": 300,
+    "reward_embedding_dim": 32,
+    "reward_steps": 1400,
+    "reward_lr": 0.001,
+    "rl_steps": 400,
+    "rl_lr": 8e-05,
+    "rl_samples_per_context": 4,
+    "rl_supervised_weight": 0.1,
+    "rollout_users": 512,
+    "rollout_horizon": 5,
+    "rollout_discount": 0.9,
+    "threads": 4,
+    "variants": {
+      "sft_control": {
+        "reward": "completion",
+        "kl_beta": 0.1,
+        "rl_weight": 0.0
+      },
+      "completion_weak_kl": {
+        "reward": "completion",
+        "kl_beta": 0.02
+      },
+      "completion_strong_kl": {
+        "reward": "completion",
+        "kl_beta": 0.2
+      },
+      "listening_time": {
+        "reward": "listening_time",
+        "kl_beta": 0.1
+      },
+      "balanced": {
+        "reward": "balanced",
+        "kl_beta": 0.1,
+        "novelty_weight": 0.15,
+        "repeat_penalty": 0.25
+      }
+    }
+  },
+  "config_sha256": "4bbe4bbf6e573d2609262a118206b3434094a2ec80c8eef7e05af7a1f54044cc",
+  "data_files_sha256": {
+    "train.npz": "4685f722a5ce7678479d454a442a2245a1695c97bea3846add9cd81339a90df4",
+    "validation.npz": "3d4fb5a9a2d577e914c1228a19858af181d0de68d88ae30a7c086611c2210824",
+    "test.npz": "c0b92c4b3e377b399e08227289d4f8d59036a616222211807592573d533e55cb"
+  },
+  "control_execution": "Primary variants completed first; supervised-continuation control added with identical RNG/reset protocol. Normal CLI reproduces all variants in one invocation."
+}

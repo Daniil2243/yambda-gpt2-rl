@@ -1,0 +1,74 @@
+reward step=200 validation MSE=0.18834
+reward step=400 validation MSE=0.18887
+reward step=600 validation MSE=0.18842
+reward step=800 validation MSE=0.18793
+reward step=1000 validation MSE=0.18846
+reward step=1200 validation MSE=0.18710
+reward step=1400 validation MSE=0.18732
+seed=17 base step=300 val NDCG@10=0.00690 elapsed=22.0s
+seed=17 base step=600 val NDCG@10=0.00828 elapsed=42.6s
+seed=17 base step=900 val NDCG@10=0.01018 elapsed=63.4s
+seed=17 base step=1200 val NDCG@10=0.01109 elapsed=83.8s
+seed=17 base step=1500 val NDCG@10=0.01324 elapsed=104.3s
+seed=17 base step=1800 val NDCG@10=0.01337 elapsed=124.7s
+seed=17 completion_weak_kl step=100 val NDCG@10=0.01332 predicted completion=0.6538
+seed=17 completion_weak_kl step=200 val NDCG@10=0.01360 predicted completion=0.6570
+seed=17 completion_weak_kl step=300 val NDCG@10=0.01374 predicted completion=0.6618
+seed=17 completion_weak_kl step=400 val NDCG@10=0.01379 predicted completion=0.6644
+seed=17 completion_strong_kl step=100 val NDCG@10=0.01329 predicted completion=0.6497
+seed=17 completion_strong_kl step=200 val NDCG@10=0.01346 predicted completion=0.6508
+seed=17 completion_strong_kl step=300 val NDCG@10=0.01357 predicted completion=0.6544
+seed=17 completion_strong_kl step=400 val NDCG@10=0.01365 predicted completion=0.6567
+seed=17 listening_time step=100 val NDCG@10=0.01335 predicted completion=0.6438
+seed=17 listening_time step=200 val NDCG@10=0.01335 predicted completion=0.6422
+seed=17 listening_time step=300 val NDCG@10=0.01316 predicted completion=0.6438
+seed=17 listening_time step=400 val NDCG@10=0.01354 predicted completion=0.6445
+seed=17 balanced step=100 val NDCG@10=0.01331 predicted completion=0.6528
+seed=17 balanced step=200 val NDCG@10=0.01341 predicted completion=0.6532
+seed=17 balanced step=300 val NDCG@10=0.01404 predicted completion=0.6596
+seed=17 balanced step=400 val NDCG@10=0.01371 predicted completion=0.6617
+seed=29 base step=300 val NDCG@10=0.00613 elapsed=21.0s
+seed=29 base step=600 val NDCG@10=0.00833 elapsed=41.8s
+seed=29 base step=900 val NDCG@10=0.00977 elapsed=62.4s
+seed=29 base step=1200 val NDCG@10=0.01162 elapsed=83.3s
+seed=29 base step=1500 val NDCG@10=0.01223 elapsed=104.5s
+seed=29 base step=1800 val NDCG@10=0.01315 elapsed=125.0s
+seed=29 completion_weak_kl step=100 val NDCG@10=0.01388 predicted completion=0.6482
+seed=29 completion_weak_kl step=200 val NDCG@10=0.01347 predicted completion=0.6508
+seed=29 completion_weak_kl step=300 val NDCG@10=0.01291 predicted completion=0.6573
+seed=29 completion_weak_kl step=400 val NDCG@10=0.01347 predicted completion=0.6587
+seed=29 completion_strong_kl step=100 val NDCG@10=0.01356 predicted completion=0.6462
+seed=29 completion_strong_kl step=200 val NDCG@10=0.01309 predicted completion=0.6471
+seed=29 completion_strong_kl step=300 val NDCG@10=0.01301 predicted completion=0.6519
+seed=29 completion_strong_kl step=400 val NDCG@10=0.01350 predicted completion=0.6531
+seed=29 listening_time step=100 val NDCG@10=0.01279 predicted completion=0.6419
+seed=29 listening_time step=200 val NDCG@10=0.01327 predicted completion=0.6404
+seed=29 listening_time step=300 val NDCG@10=0.01329 predicted completion=0.6421
+seed=29 listening_time step=400 val NDCG@10=0.01357 predicted completion=0.6425
+seed=29 balanced step=100 val NDCG@10=0.01351 predicted completion=0.6482
+seed=29 balanced step=200 val NDCG@10=0.01369 predicted completion=0.6525
+seed=29 balanced step=300 val NDCG@10=0.01311 predicted completion=0.6560
+seed=29 balanced step=400 val NDCG@10=0.01372 predicted completion=0.6579
+seed=43 base step=300 val NDCG@10=0.00670 elapsed=20.9s
+seed=43 base step=600 val NDCG@10=0.00941 elapsed=41.1s
+seed=43 base step=900 val NDCG@10=0.00991 elapsed=61.7s
+seed=43 base step=1200 val NDCG@10=0.01105 elapsed=82.0s
+seed=43 base step=1500 val NDCG@10=0.01201 elapsed=102.3s
+seed=43 base step=1800 val NDCG@10=0.01238 elapsed=123.0s
+seed=43 completion_weak_kl step=100 val NDCG@10=0.01248 predicted completion=0.6495
+seed=43 completion_weak_kl step=200 val NDCG@10=0.01290 predicted completion=0.6541
+seed=43 completion_weak_kl step=300 val NDCG@10=0.01291 predicted completion=0.6579
+seed=43 completion_weak_kl step=400 val NDCG@10=0.01317 predicted completion=0.6608
+seed=43 completion_strong_kl step=100 val NDCG@10=0.01256 predicted completion=0.6453
+seed=43 completion_strong_kl step=200 val NDCG@10=0.01280 predicted completion=0.6488
+seed=43 completion_strong_kl step=300 val NDCG@10=0.01304 predicted completion=0.6528
+seed=43 completion_strong_kl step=400 val NDCG@10=0.01320 predicted completion=0.6531
+seed=43 listening_time step=100 val NDCG@10=0.01215 predicted completion=0.6411
+seed=43 listening_time step=200 val NDCG@10=0.01292 predicted completion=0.6406
+seed=43 listening_time step=300 val NDCG@10=0.01272 predicted completion=0.6424
+seed=43 listening_time step=400 val NDCG@10=0.01298 predicted completion=0.6413
+seed=43 balanced step=100 val NDCG@10=0.01296 predicted completion=0.6487
+seed=43 balanced step=200 val NDCG@10=0.01319 predicted completion=0.6531
+seed=43 balanced step=300 val NDCG@10=0.01273 predicted completion=0.6563
+seed=43 balanced step=400 val NDCG@10=0.01334 predicted completion=0.6568
+Experiment finished; raw metrics and checkpoints are in /workspace/scratch/ef36f6b12f46/yambda_rl/results

@@ -1,0 +1,7 @@
+{"step": 200, "training_batch_mse": 0.18441784381866455, "validation_mse": 0.18834182620048523}
+{"step": 400, "training_batch_mse": 0.1896553933620453, "validation_mse": 0.1888715922832489}
+{"step": 600, "training_batch_mse": 0.19399262964725494, "validation_mse": 0.18842285871505737}
+{"step": 800, "training_batch_mse": 0.17309452593326569, "validation_mse": 0.1879328340291977}
+{"step": 1000, "training_batch_mse": 0.1965124011039734, "validation_mse": 0.1884642243385315}
+{"step": 1200, "training_batch_mse": 0.18219587206840515, "validation_mse": 0.18710188567638397}
+{"step": 1400, "training_batch_mse": 0.18794448673725128, "validation_mse": 0.18732210993766785}

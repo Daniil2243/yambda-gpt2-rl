@@ -1,0 +1,66 @@
+{
+  "uid": 100,
+  "checkpoint": "/workspace/scratch/ef36f6b12f46/yambda_rl/results/seed_17/base.pt",
+  "recommendations": [
+    {
+      "item_id": 2710484,
+      "probability": 0.007143625523895025,
+      "predicted_completion": 0.6127973198890686,
+      "in_last_history": false
+    },
+    {
+      "item_id": 1051073,
+      "probability": 0.006816298700869083,
+      "predicted_completion": 0.5790970921516418,
+      "in_last_history": false
+    },
+    {
+      "item_id": 1383853,
+      "probability": 0.006721255369484425,
+      "predicted_completion": 0.59837406873703,
+      "in_last_history": false
+    },
+    {
+      "item_id": 5204435,
+      "probability": 0.006562856491655111,
+      "predicted_completion": 0.6178174614906311,
+      "in_last_history": false
+    },
+    {
+      "item_id": 8326270,
+      "probability": 0.006173453759402037,
+      "predicted_completion": 0.6243315935134888,
+      "in_last_history": true
+    },
+    {
+      "item_id": 509030,
+      "probability": 0.006128633860498667,
+      "predicted_completion": 0.6382832527160645,
+      "in_last_history": false
+    },
+    {
+      "item_id": 1938919,
+      "probability": 0.005056892521679401,
+      "predicted_completion": 0.6217989325523376,
+      "in_last_history": false
+    },
+    {
+      "item_id": 489014,
+      "probability": 0.0048052649945020676,
+      "predicted_completion": 0.6201241612434387,
+      "in_last_history": false
+    },
+    {
+      "item_id": 1558292,
+      "probability": 0.004795687738806009,
+      "predicted_completion": 0.5999760031700134,
+      "in_last_history": false
+    },
+    {
+      "item_id": 4522882,
+      "probability": 0.004743174649775028,
+      "predicted_completion": 0.6508220434188843,
+      "in_last_history": false
+    }
+  ]
+}
