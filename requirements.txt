@@ -6,5 +6,4 @@ pyarrow==26.0.0
 scipy==1.17.0
 scikit-learn==1.8.0
 matplotlib==3.10.8
-reportlab==4.4.9
 pytest==9.1.1

@@ -4,3 +4,9 @@ __pycache__/
 data/raw/
 *.partial
 tmp/
+# Generated locally by preparation and training; measured text summaries stay tracked.
+data/processed/*.npz
+results/**/*.pt
+results/**/*.npz
+report.pdf
+conf_1.2/

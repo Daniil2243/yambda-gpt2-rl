@@ -1,8 +1,10 @@
 # Data provenance and terms
 
-The prepared NumPy files in data/processed are a small, transformed subset of
-the public Yandex Yambda-50M sequential listening dataset. They retain anonymous
-user and track identifiers, causal contexts, completion labels, and timestamps.
+The data preparation code derives a small, transformed subset of the public
+Yandex Yambda-50M sequential listening dataset. Generated NumPy files retain
+anonymous user and track identifiers, causal contexts, completion labels, and
+timestamps. They are not distributed in this compact repository; audit and
+catalog metadata from the reported experiment are retained.
 
 - Original source: https://huggingface.co/datasets/yandex/yambda
 - Original file: sequential/50m/listens.parquet
